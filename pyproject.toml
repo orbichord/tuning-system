@@ -11,8 +11,11 @@ matplotlib = "^3.8.3"
 
 [tool.poetry.scripts]
 real_pair = "tuningsystem.pair.real:main"
-octave_equivalen_real_pair = "tuningsystem.pair.octave_equivalent_real:main"
-octave_equivalen_real_pair_transform = "tuningsystem.pair.octave_equivalent_real_transform:main"
+octave_equivalent_real_pair = "tuningsystem.pair.octave_equivalent_real:main"
+octave_equivalent_real_pair_transform = "tuningsystem.pair.octave_equivalent_real_transform:main"
+octave_equivalent_real_dyad = "tuningsystem.dyad.octave_equivalent_real:main"
+octave_equivalent_real_dyad_transform = "tuningsystem.dyad.octave_equivalent_real_transform:main"
+octave_equivalent_real_dyad_simplex = "tuningsystem.dyad.octave_equivalent_real_simplex:main"
 
 [build-system]
 requires = ["poetry-core"]

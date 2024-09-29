@@ -125,7 +125,9 @@ def plot_2d_pitch_class(
     )
 
     # Plotting fundamental domain
-    fundamental_domain = [transform(simplex(point)) for point in fundamental_domain]
+    fundamental_domain = [
+        transform(simplex(point)) for point in fundamental_domain
+    ]
     domain = Polygon(
         fundamental_domain,
         alpha=0.2,
