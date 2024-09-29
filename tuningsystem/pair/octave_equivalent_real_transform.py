@@ -6,9 +6,6 @@ from tuningsystem.utils import plot_2d_pitch_class
 
 def generate_plot():
     """Generate a plot showinf continuum dyad orbichord."""
-    # Size of the coordinates
-
-    limit = 2
 
     # Plotting fundamental domain
     fundamental_domain = (

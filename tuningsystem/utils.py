@@ -165,9 +165,9 @@ def plot_2d_pitch_class(
             config = annotation_config
             config["color"] = probe["color"]
             if identity_action:
-                label = "${}$".format(probe["label"])
+                label = f"${probe["label"]}$"
             else:
-                label = "${}'$".format(probe["label"])
+                label = f"${probe["label"]}'$"
             acted_pair = apply_actions(action_ntuple, simplex(probe['x']))
             trans_x, trans_y = transform(acted_pair)
             plot.annotate(

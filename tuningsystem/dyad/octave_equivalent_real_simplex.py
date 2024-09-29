@@ -4,7 +4,6 @@
 from tuningsystem.utils import plot_2d_pitch_class
 
 
-#pylint: disable=invalid-name
 def simplex(x):
     """Implement 2D simplex transformation."""
     x1, x2 = sorted((x[0], x[1]))
