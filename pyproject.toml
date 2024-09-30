@@ -10,12 +10,18 @@ python = "^3.11"
 matplotlib = "^3.8.3"
 
 [tool.poetry.scripts]
+# Pairs
 real_pair = "tuningsystem.pair.real:main"
 octave_equivalent_real_pair = "tuningsystem.pair.octave_equivalent_real:main"
 octave_equivalent_real_pair_transform = "tuningsystem.pair.octave_equivalent_real_transform:main"
+# Dyads
 octave_equivalent_real_dyad = "tuningsystem.dyad.octave_equivalent_real:main"
 octave_equivalent_real_dyad_transform = "tuningsystem.dyad.octave_equivalent_real_transform:main"
 octave_equivalent_real_dyad_simplex = "tuningsystem.dyad.octave_equivalent_real_simplex:main"
+# Embeddings
+embedded_moebius = "tuningsystem.embeddings.moebius:main"
+embedded_torus = "tuningsystem.embeddings.torus:main"
+embedded_twist = "tuningsystem.embeddings.twist:main"
 
 [build-system]
 requires = ["poetry-core"]
