@@ -15,6 +15,7 @@ real_pair = "tuningsystem.pair.real:main"
 octave_equivalent_real_pair = "tuningsystem.pair.octave_equivalent_real:main"
 octave_equivalent_real_pair_transform = "tuningsystem.pair.octave_equivalent_real_transform:main"
 # Dyads
+real_dyad = "tuningsystem.dyad.real:main"
 octave_equivalent_real_dyad = "tuningsystem.dyad.octave_equivalent_real:main"
 octave_equivalent_real_dyad_transform = "tuningsystem.dyad.octave_equivalent_real_transform:main"
 octave_equivalent_real_dyad_simplex = "tuningsystem.dyad.octave_equivalent_real_simplex:main"

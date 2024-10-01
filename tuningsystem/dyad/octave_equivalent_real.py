@@ -1,4 +1,4 @@
-"""Tool to generate 8va quotient continuum dyad."""
+"""Tool to generate 8va quotient real dyad."""
 
 
 from tuningsystem.utils import plot_2d_pitch_class
