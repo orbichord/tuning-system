@@ -19,6 +19,8 @@ real_dyad = "tuningsystem.dyad.real:main"
 octave_equivalent_real_dyad = "tuningsystem.dyad.octave_equivalent_real:main"
 octave_equivalent_real_dyad_transform = "tuningsystem.dyad.octave_equivalent_real_transform:main"
 octave_equivalent_real_dyad_simplex = "tuningsystem.dyad.octave_equivalent_real_simplex:main"
+# Triplets
+real_triplet_transform = "tuningsystem.triplet.real_transform:main"
 # Embeddings
 embedded_moebius = "tuningsystem.embeddings.moebius:main"
 embedded_torus = "tuningsystem.embeddings.torus:main"
