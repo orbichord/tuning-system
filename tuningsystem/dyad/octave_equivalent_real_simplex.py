@@ -28,12 +28,12 @@ def generate_plot():
 
     # Probe points
     probes = (
-        {"label": "A", "x": (0.13, 0.33), "color": "red"},
-        {"label": "B", "x": (0.13, 0.73), "color": "blue"},
-        {"label": "C", "x": (0.33, 0.53), "color": "green"},
-        {"label": "D", "x": (0.67, 0.87), "color": "black"},
-        {"label": "E", "x": (0.27, 0.87), "color": "darkslategray"},
-        {"label": "F", "x": (0.47, 0.67), "color": "darkred"},
+        {"label": "C", "x": (0.13, 0.33), "color": "red"},
+        {"label": "E", "x": (0.13, 0.73), "color": "blue"},
+        {"label": "F", "x": (0.33, 0.53), "color": "green"},
+        {"label": "A", "x": (0.67, 0.87), "color": "black"},
+        {"label": "B", "x": (0.27, 0.87), "color": "darkslategray"},
+        {"label": "C", "x": (0.47, 0.67), "color": "darkred"},
     )
 
     # Actions over probes
